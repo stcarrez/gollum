@@ -1,5 +1,6 @@
+with Ada.Text_IO;
 with Ada.Directories;
 procedure Gollum.Main is
 begin
-   null;
+   Ada.Text_IO.Put_Line ("gollum");
 end Gollum.Main;
