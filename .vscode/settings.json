@@ -1,0 +1,6 @@
+{
+    "ada.projectFile": "gollum.gpr",
+    "ada.defaultCharset": "utf-8",
+    "ada.documentationStyle": "leading",
+    "ada.enableDiagnostics": false
+}
