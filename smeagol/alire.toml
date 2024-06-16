@@ -1,0 +1,24 @@
+# This is a crate
+name = "smeagol"
+description = "Smeagol Application"
+version = "0.1.0-dev"
+
+authors = ["ciceron"]
+maintainers = ["ciceron <Stephane.Carrez@gmail.com>"]
+maintainers-logins = ["stcarrez"]
+licenses = "Apache-2.0"
+website = ""
+tags = []
+
+executables = ["smeagol"]
+
+project-files = ["smeagol.gpr"]
+
+[[depends-on]]
+gollum = "*"
+
+[configuration]
+disabled = true
+
+[[pins]]
+gollum = { path='..' }
