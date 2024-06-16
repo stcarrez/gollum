@@ -1,4 +1,5 @@
 with "config";
+with "utilada_core";
 
 project gollum is
 
